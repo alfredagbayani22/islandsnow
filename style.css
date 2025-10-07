@@ -27,3 +27,22 @@ body {
   border-radius: 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+.row.justify-content-center.pt-4 .nav-link {
+  color: #000;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+.row.justify-content-center.pt-4 .nav-link:hover {
+  color: #d62828;
+  border-bottom: 2px solid #d62828;
+}
+
+/* Bridge image spacing */
+.row.justify-content-center.pt-4 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
