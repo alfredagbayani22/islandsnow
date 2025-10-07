@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.nav .nav-link {
+  color: #000;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.nav .nav-link:hover {
+  color: #d62828; /* Accent red hover color */
+}
+
+.navbar-brand img {
+  height: 45px;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
